@@ -92,8 +92,8 @@ app.get('/help/*', (req, res) => {
 app.get('*', (req, res) => {
     res.render('404page', {
         message: 'My 404 page'
-    })
-})
+    });
+});
 
 
 // app.com
